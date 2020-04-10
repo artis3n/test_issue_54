@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Deploy Ansible Galaxy Collection
-      uses: artis3n/ansible_galaxy_collection@ec8693b4baf8cac2de994ef4085a57e7d61fdfd6
+      uses: artis3n/ansible_galaxy_collection@a57a806e2b1abffa509289818531d11948bce744
       with:
         api_key: ${{ secrets.GALAXY_API_KEY }}
         collection_dir: ansible_collections/test/test
